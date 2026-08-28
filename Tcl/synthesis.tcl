@@ -20,4 +20,13 @@ set ::env(STD_CELL_LIBRARY) "sky130_fd_sc_hd"
 
 # Clock Port Name & Period (Matches SDC)
 set ::env(CLOCK_PORT) "clk"
-set ::env(CLOCK_PERIOD) "10.0"
+set ::env(CLOCK_PERIOD) "7.7"
+
+#----SYNTH UPDATES TO MAXIMIZE PERFORMANCE/STA------
+
+# 2. Gate Sizing & Buffering Controls
+set ::env(SYNTH_STRATEGY) "DELAY 0"
+set ::env(SYNTH_SIZING) 1      
+set ::env(SYNTH_BUFFERING) 1   
+set ::env(SYNTH_MAX_TRAN) 0.75  
+

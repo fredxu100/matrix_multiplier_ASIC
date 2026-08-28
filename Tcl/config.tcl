@@ -11,7 +11,5 @@ source "$::env(DESIGN_DIR)/floorplan.tcl"
 # --- Load PDN Configuration ---
 source "$::env(DESIGN_DIR)/pdn.tcl"
 
-#-------------CONSTRAINT CHANGES------------#
-
-#NOTE: AREA TRADEOFF, CAN BE OPTIMIZED
-set ::env(PL_TARGET_DENSITY) 0.45
+# --- Load Placement Configuration
+source "$::env(DESIGN_DIR)/placement.tcl"
