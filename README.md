@@ -25,15 +25,15 @@ The architecture is verified using a Universal Verification Methodology (**UVM**
 
 ## Implementation & PPA Metrics
 
-Physical design and implementation are currently underway for the SkyWater 130nm node. 
-
 | Metric | Target / Result | Notes |
 | :--- | :--- | :--- |
-| **Technology Node** | SkyWater 130nm (`sky130`) | Open-source PDK |
-| **Max Clock Frequency** | *TBD* | Physical Design in progress |
-| **Total Cell Area** | *TBD* | Physical Design in progress |
-| **Total Power (Dynamic + Static)** | *TBD* | Physical Design in progress |
-| **EDA Toolchain** | Yosys / OpenLane |
+| **Technology Node** | SkyWater 130nm PDK |
+| **Max Clock Frequency** | 129.87 Mhz |
+| **Setup Slack** | 0.76 ns |
+| **Hold Slack** | 0.29 ns |
+| **Total Cell Area** | 1.434 mm^2 (1197.8 um x 1196.8 um) |
+| **Total Power** | 0.173 W (55.15% switching, 48.5% internal) |
+| **EDA Toolchain** | OpenLane |
 
 ---
 
